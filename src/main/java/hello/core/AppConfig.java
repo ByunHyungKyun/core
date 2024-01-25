@@ -26,8 +26,8 @@ public class AppConfig { //DI 컨테이너
 
     @Bean
     public OrderService orderService(){
-       // return new OrderServiceImpl(memberRepository(),discountPolicy());
-        return null;
+       return new OrderServiceImpl(memberRepository(),discountPolicy());
+       //return null;
     }
 
     @Bean
