@@ -10,12 +10,12 @@ import java.util.Scanner;
 @RequiredArgsConstructor
 public class LogDemoServcie {
 
+
     private final MyLogger myLogger;
 
 
     public void logic(String id) {
         myLogger.log("service id = "+ id );
-
     }
 
 
